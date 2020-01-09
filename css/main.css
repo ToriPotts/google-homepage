@@ -50,8 +50,10 @@
     padding:5px
 }
 .left-footer {display: flex;
+    flex:1;
     justify-content: flex-start;
-    padding:5px}
+    padding-left:15px;
+    align-items: baseline;}
 
 .right-nav {
     display: flex;
@@ -94,6 +96,8 @@ footer {
     width: 100%;
     bottom: 0px;
     padding-top: 10px;
+    padding-bottom: 10px;
+    left: 0px;
 }
 input {
     border-radius: 15px;
