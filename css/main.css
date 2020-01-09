@@ -1,0 +1,60 @@
+.flex-container {display: flex;
+}
+.nav {display: flex;
+justify-content: space-between;}
+.logo   {
+    display: flex;
+    margin: auto;
+}
+.middle {
+    display: flex;
+}
+.under-search {
+    display: flex;
+}
+.buttons-under {
+    margin: auto;
+}
+.form-parent    {
+    display: flex;
+}
+.form {
+    margin:auto;
+    padding-bottom: 15px;
+}
+.sign-in {
+    background-color: rgb(62, 137, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    font-weight: bold;
+    border-radius: 2px;
+
+}
+.left-nav {display: flex;
+    justify-content: flex-start;
+    padding:5px
+}
+.right-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+
+}
+.google-button {
+    width:35px;
+    height:35px;
+    align-self: center;
+    margin-right: 10px;
+}
+.text {
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: gray;
+    padding: 0 1.4em 0 0
+}
+.text :hover {
+    text-decoration: underline;
+}
